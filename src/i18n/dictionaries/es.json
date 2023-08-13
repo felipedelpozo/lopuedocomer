@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "applicationName": "SeedAddress",
+    "name": "SeedAddress - Hermoso, rápido y moderno generador de frases semilla",
+    "description": "Protege tus Criptomonedas con una frase semilla a través de una dirección.",
+    "keywords": "Seguridad de Criptomonedas, Frases semilla, Protección de clave privada, Seguridad de billetera criptográfica, Frases semilla personalizadas, Protección de activos digitales, Soluciones enfocadas en la privacidad, Almacenamiento seguro de criptomonedas, Privacidad de criptomonedas, Seguridad en blockchain, Resguardo de activos criptográficos, Generación segura de frases semilla, Seguridad descentralizada de billeteras, Encriptación de datos de criptomonedas, Seguridad controlada por el usuario, Soluciones de seguridad personal, Gestión de claves privadas, Ciberseguridad para criptomonedas, Almacenamiento seguro de criptomonedas, Beneficios de SeedAddress",
+    "category": "Criptomonedas y Seguridad"
+  },
+  "name": "<b>Seed</b>Address",
+  "title": "Protege tus Criptomonedas con una frase semilla de {words} en {language} a través de una dirección.",
+  "subtitle": "Hermoso, rápido y moderno generador de frases semilla.",
+  "languages": {
+    "label": "Lenguage",
+    "czech": "Checo",
+    "english": "Inglés",
+    "french": "Francés",
+    "italian": "Italiano",
+    "japanese": "Japones",
+    "korean": "Coreano",
+    "simp": "Chino simplificado",
+    "spanish": "Español",
+    "trad": "Chino tradicional"
+  },
+  "words": {
+    "label": "Número de palabras",
+    "item": "{value} palabras"
+  },
+  "wordsLabel": "Número de palabras",
+  "cancel": "Cancelar",
+  "form": {
+    "address": {
+      "label": "Dirección",
+      "placeholder": "Introduce una dirección"
+    },
+    "password": {
+      "label": "Contraseña",
+      "placeholder": "Introduce una contraseña",
+      "Too weak": "Muy débil",
+      "Weak": "Débil",
+      "Medium": "Media",
+      "Strong": "Fuerte"
+    },
+    "generate": "Generar"
+  },
+  "mnemonic": {
+    "title": "Frase semilla",
+    "footer": "Si comparte la información generada por esta página con alguien, pueden robar sus activos.",
+    "copy": "Copiar al portapapeles",
+    "reset": "Reiniciar"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "posts": "Blog",
+    "about": "Acerca de"
+  },
+  "posts": {
+    "subtitle": "Artículo"
+  },
+  "readMore": "Leer más",
+  "footer": {
+    "copyright": "© {year} {name} {link}",
+    "privacyPolicy": "Política de privacidad",
+    "es": "Español",
+    "en": "English"
+  }
+}
