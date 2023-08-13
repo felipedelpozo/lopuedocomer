@@ -9,7 +9,6 @@ import {
 } from '@nextui-org/modal';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCallback, useState } from 'react';
-import { getAutocomplete, getStaticMaps } from '@/app/actions';
 import { Suggestion } from '@/types';
 import { useAppStore } from '@/components/context';
 
@@ -42,13 +41,6 @@ export function AddressInput(props: InputProps) {
     if (input.length < 5) {
       return setSuggestions([]);
     }
-
-    getAutocomplete(input, locale)
-      .then((response) => {
-        setSuggestions(response);
-        setIsOpen(response.length > 0);
-      })
-      .catch(() => setSuggestions([]));
   };
 
   const handleSelection = useCallback(
