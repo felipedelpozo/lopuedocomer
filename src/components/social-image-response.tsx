@@ -18,13 +18,13 @@ export default async function SocialImageResponse(
     (
       <div tw="flex h-full w-full flex-col p-10 bg-black">
         <p tw="text-4xl text-white mb-0">
-          {!props?.title && <span tw="font-bold">SeedAddress</span>}
+          {!props?.title && <span tw="font-bold">LoPuedoComer</span>}
           {props?.title && <span tw="font-bold">{props.title}</span>}
         </p>
         <p tw="text-7xl text-white pt-10">
           {props?.description ?? t.rich('description')}
         </p>
-        <p tw="absolute bottom-10 text-xl text-white pl-10">seedaddress.com</p>
+        <p tw="absolute bottom-10 text-xl text-white pl-10">lopuedocomer.com</p>
       </div>
     ),
     {
